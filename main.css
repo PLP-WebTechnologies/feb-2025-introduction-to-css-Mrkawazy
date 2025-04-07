@@ -1,0 +1,40 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Font for the body */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center text */
+}
+
+/* Section styles */
+section {
+    margin: 20px 0; /* Margin above and below sections */
+    padding: 15px; /* Padding inside sections */
+    background-color: white; /* White background for sections */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Image styling using class selector */
+.styled-image {
+    width: 100%; /* Make image responsive */
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border: 4px solid #4CAF50; /* Green border */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center text in footer */
+    margin-top: 20px; /* Margin above footer */
+    font-weight: bold; /* Bold text */
+}
